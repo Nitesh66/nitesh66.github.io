@@ -109,12 +109,14 @@ body {
 }
 
 .six .hat {
-  right: 10%;
   position: absolute;
-  /* transform: scale(0.1); */
-  top: -25%;
-  width: 80px;
+  top: 35px;      /* aligns vertically on top of her head */
+  left: 165px;    /* aligns horizontally over the center of her head */
+  width: 80px;    /* keep size or adjust slightly */
+  z-index: 10;
+  transform: rotate(-10deg);  /* optional: gives a fun tilt */
 }
+
 
 .baloons img {
   display: inline-block;
