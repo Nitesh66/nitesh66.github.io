@@ -110,11 +110,11 @@ body {
 
 .six .hat {
   position: absolute;
-  top: 35px;      /* aligns vertically on top of her head */
-  left: 165px;    /* aligns horizontally over the center of her head */
-  width: 80px;    /* keep size or adjust slightly */
+  top: 40px;       /* vertical placement */
+  right: 100px;    /* adjust this value to fine-tune horizontally */
+  width: 80px;
   z-index: 10;
-  transform: rotate(-10deg);  /* optional: gives a fun tilt */
+  transform: rotate(-15deg);
 }
 
 
