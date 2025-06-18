@@ -113,7 +113,6 @@ body {
   top: 10px;       /* vertical placement */
   right: 20px;    /* adjust this value to fine-tune horizontally */
   width: 80px;
-  z-index: 10;
   transform: rotate(-15deg);
 }
 
