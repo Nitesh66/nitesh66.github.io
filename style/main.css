@@ -110,10 +110,10 @@ body {
 
 .six .hat {
   position: absolute;
-  top: -10px;
-  left: 50%;
+  top: 20px;
+  right: 80px;
   width: 80px;
-  transform: translateX(-50%) rotate(-15deg);
+  transform: rotate(-15deg);
 }
 
 
@@ -226,7 +226,6 @@ body {
   z-index: 3;
 }
 
-/* Media Queries */
 @media screen and (max-height: 1000px) {
   .six .hat {
     left: 50%;
@@ -250,7 +249,8 @@ body {
 @media screen and (max-width: 500px) {
   .six .hat {
     width: 50px;
-    left: 50%;
+    right: 60px;
+    top: 15px;
   }
 }
 
