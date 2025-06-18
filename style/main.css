@@ -111,7 +111,7 @@ body {
 .six .hat {
   position: absolute;
   top: -120px;
-  right: 70px;
+  right: 60px;
   width: 80px;
   transform: rotate(-15deg);
 }
